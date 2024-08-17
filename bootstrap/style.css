@@ -1,0 +1,419 @@
+nav{
+    background-color: rgba(248, 235, 235, 0.504);
+    height: 50px;
+    border: 4px;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul{
+   list-style: none;
+   display: flex;
+   justify-content: space-around;
+}
+
+nav li{
+    text-transform: uppercase;
+    position: relative;
+}
+
+nav a{
+text-decoration: none;
+display: inline-block;
+padding: 0 15px;
+
+}
+
+
+button{
+    margin: 3px;
+    border-radius: 5px;
+    background-color:gold ;
+    color: rgb(0, 0, 0);
+}
+button::after{
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width:0;
+    height: 3px;
+    background-color: gold;
+
+}  
+button:hover::after{
+    width: 100%;
+}  
+ 
+h1{
+    font-size: 120px;
+}
+
+h2{
+    font-family: "Grey Qo", cursive;
+    font-size: 60px;
+}
+h3{
+    font-family: "Grey Qo", cursive;
+    font-size: 50px;
+    font-weight: 400;
+    font-style: normal;
+}
+header{
+    font-family: times, Verdana, Geneva, Tahoma, sans-serif;
+    color: gold;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center; 
+    background-image: linear-gradient(rgba(255, 55, 55, 0.504), rgba(255,55,55,0.504)), url(./media/spaghetti-1932466_1280.jpg); 
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    
+}
+div{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.row{
+    
+    height: 500px;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+
+.ingredienti{
+    height:auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info1{
+    height: 350px;
+    width: 542px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info2{
+    height: 350px;
+    width: 542px;
+    background-color: rgb(228, 228, 197);
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.info3{
+    height: 350px;
+    width: 542px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+p{
+    text-align: center;
+}
+
+footer{
+    background-color: gold;
+    height: 50px;
+ 
+}
+
+.finepagina{
+    font-family: 'Times New Roman', Times, serif; 
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* @media screen and (max-width: 576px){
+header{
+    height:50vh; 
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex; 
+    flex-direction: column;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 20px;
+}
+h2{
+    font-size: 20px;
+}
+nav{
+    width: 100%;
+    height: 40px;
+
+}
+li{
+    width: 100%;
+    max-height: 20px;
+    font-size: 8px;
+    display: flex;
+    align-items: center;
+}
+
+
+.container{
+    flex-direction: column;
+    width: 100%;
+    height: 50%;   
+}
+
+.immaginipiatti{
+    height: 50%;
+    width: 100%;
+} 
+
+.row{
+    flex-direction: column;
+    width: 100%;
+    height: 30%;
+}
+.ingredienti{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.info1{
+    width: 100%;
+    height: 50%;
+}
+.info2{
+    width: 100%;
+    height: 50%;  
+}
+.info3{
+    width: 100%;
+    height: 50%;
+}
+.finepagina{
+    height: 30px;
+    width: 100%;
+
+}
+    
+} 
+
+@media screen and (min-width: 576px){
+    header{
+        height:30vh; 
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        display: flex; 
+        flex-direction: column;
+        font-size: 20px;
+    }
+    
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    nav{
+        width: 100%;
+        height: 40px;
+    
+    }
+    li{
+        width: 100%;
+        max-height: 20px;
+        font-size: 8px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .immaginipiatti{
+        height: 50%;
+        width: 100%;
+    }
+    
+    .container{
+        flex-direction: column;
+        width: 100%;
+        height:20%;   
+    }
+    
+    .row{
+        flex-direction: column;
+        width: 100%;
+        height: 40%;
+    }
+    .ingredienti{
+        height: 40%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .info1{
+        width: 100%;
+        height: 50%;
+    }
+    .info2{
+        width: 100%;
+        height: 50%;  
+    }
+    .info3{
+        width: 100%;
+        height: 50%;
+    }
+    .finepagina{
+        height: 30px;
+        width: 100%;
+    
+    }  */
+        
+    /* }  */
+    /* @media screen and (min-height: 660px){ */
+        /* header{
+            height:30vh; 
+            width: 100%;
+            background-position: center;
+            background-size: cover;
+            display: flex; 
+            flex-direction: column;
+            font-size: 20px;
+        }
+        
+        h1{
+            font-size: 20px;
+        }
+        h2{
+            font-size: 20px;
+        }
+        nav{
+            width: 100%;
+            height: 40px;
+        
+        }
+        li{
+            width: 100%;
+            max-height: 20px;
+            font-size: 8px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .immaginipiatti{
+            height: 50%;
+            width: 100%;
+        }
+        
+        .container{
+            flex-direction: column;
+            width: 100%;
+            height: 30%;   
+        }
+        
+        .row{
+            flex-direction: column;
+            width: 100%;
+            height: 30%;
+        }
+        .ingredienti{
+            height: 30%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .info1{
+            width: 100%;
+            height: 40%;
+        }
+        .info2{
+            width: 100%;
+            height: 40%;  
+        }
+        .info3{
+            width: 100%;
+            height: 40%;
+        }
+        .finepagina{
+            height: 30px;
+            width: 100%;
+        
+        }
+            
+        }  */
+
+
+
+    
+
+
+
+    
+    
+    
+    
+    
+    
+   
+
+
+
+  
+
+
+
+  
+ 
+
+
+
+
+   
+
+
+
+
+ 
+
+
+
+
+    
+
+
+
+
+ 
+    
+
+
+
+
+
+    
+
+
+
+
+    
